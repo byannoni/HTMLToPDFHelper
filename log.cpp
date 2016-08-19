@@ -2,8 +2,8 @@
 #include "stdafx.h"
 #include "log.h"
 
-extern FILE* errorfd = stderr; /* File to log errors */
-extern FILE* logfd = stdout; /* File to log information */
+extern FILE* errorfd = NULL; /* File to log errors */
+extern FILE* logfd = NULL; /* File to log information */
 extern enum log_level log_filter = /* Maximum verbosity to log */
 #ifdef _DEBUG
 		kDEBUG
