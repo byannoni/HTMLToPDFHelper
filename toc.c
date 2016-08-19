@@ -17,7 +17,7 @@ static void skip_bin_data(FILE*);
  * will not work for every PDF (as noted above), but it seems to work
  * with the PDFs generated PDFs from wkhtmltopdf. If the procedure
  * succeeds (i.e. finds a number which may be the number of pages as
- * determined by the method explained above), and the number of pages in
+ * determined by the method explained above), the number of pages is
  * stored in the value pointed to by pages. Otherwise, execution is
  * terminated. The value of neither pages nor pdf_name may be NULL.
  */
