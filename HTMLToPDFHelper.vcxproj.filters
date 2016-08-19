@@ -47,31 +47,31 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="stdafx.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="HTMLToPDFHelper.cpp">
+    <ClCompile Include="HTMLToPDFHelper.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="cmd.cpp">
+    <ClCompile Include="cmd.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="parse.cpp">
+    <ClCompile Include="parse.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="toc.cpp">
+    <ClCompile Include="toc.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="log.cpp">
+    <ClCompile Include="log.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="wkhtmltopdf_cmd.cpp">
+    <ClCompile Include="wkhtmltopdf_cmd.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="pdftk_cmd.cpp">
+    <ClCompile Include="pdftk_cmd.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="util.cpp">
+    <ClCompile Include="util.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
